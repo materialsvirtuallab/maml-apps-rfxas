@@ -22,7 +22,7 @@ Pip install via PyPI::
 
 setup(
     name="maml-apps-rfxas",
-    namespace_packages = ['maml.apps'],
+    namespace_packages=['maml.apps'],
     packages=find_namespace_packages(include=['maml.apps.*']),
     version="2021.3.2",
     install_requires=["numpy", "scipy", "monty", "scikit-learn", "pandas", "pymatgen", "tqdm"],
