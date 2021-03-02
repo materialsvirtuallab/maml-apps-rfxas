@@ -121,7 +121,7 @@ def release(ctx, notest=True):
         "prerelease": False,
     }
     response = requests.post(
-        "https://api.github.com/repos/materialsvirtuallab/maml/releases",
+        "https://api.github.com/repos/materialsvirtuallab/maml-app-rfxas/releases",
         data=json.dumps(payload),
         headers={"Authorization": "token " + os.environ["GITHUB_RELEASES_TOKEN"]},
     )
