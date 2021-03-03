@@ -25,7 +25,7 @@ setup(
     namespace_packages=['maml.apps'],
     packages=find_namespace_packages(include=['maml.apps.*']),
     version="2021.3.2",
-    install_requires=["numpy", "scipy", "monty", "scikit-learn", "pandas", "pymatgen", "tqdm"],
+    install_requires=["maml>=2021.3.2"],
     author="Materials Virtual Lab",
     author_email="ongsp@eng.ucsd.edu",
     maintainer="Shyue Ping Ong",
